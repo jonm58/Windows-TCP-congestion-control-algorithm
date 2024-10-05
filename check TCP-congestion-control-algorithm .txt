@@ -1,0 +1,2 @@
+open powershell
+Get-NetTCPSetting | Select SettingName, CongestionProvider
